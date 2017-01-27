@@ -4,7 +4,8 @@
 
 {% block body %}
 <h1>Welcome to the StudentController:index page</h1>
-  {% for age in ages %}
-    <p>{{ student.firstname }}</p>
+  {% for student in students %}
+    <p>{{ student.firstname }} {{ student.lastname }}</p>
+    <p>{{ student.age }}</p>
   {% endfor %}
 {% endblock %}
