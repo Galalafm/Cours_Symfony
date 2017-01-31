@@ -1,4 +1,4 @@
-# Symfony - HETIC H2 P2019
+# Symfony - HETIC H3 P2019
 
 ## Installation
 1. Do a `composer install` in your terminal to install dependencies. Fill in the database informations correctly.

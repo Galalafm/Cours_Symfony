@@ -1,3 +1,7 @@
+app_student_type:
+    resource: "@AppBundle/Controller/StudentTypeController.php"
+    type:     annotation
+
 bunker:
     resource: "@BunkerBundle/Controller/"
     type:     annotation

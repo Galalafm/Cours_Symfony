@@ -1,0 +1,11 @@
+{% extends "::base.html.twig" %}
+
+{% block title %}AppBundle:StudentController:index{% endblock %}
+
+{% block body %}
+<h1>Welcome to the StudentController:index page</h1>
+  {% for student in students %}
+    <p>{{ student.firstname }} {{ student.lastname }}</p>
+    <p>{{ student.age }}</p>
+  {% endfor %}
+{% endblock %}
